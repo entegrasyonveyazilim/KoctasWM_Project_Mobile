@@ -413,6 +413,12 @@
       <DependentUpon>frm_WMLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalData.cs" />
+    <Compile Include="KoliNoPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KoliNoPopUp.Designer.cs">
+      <DependentUpon>KoliNoPopUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="PictureButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -654,6 +660,10 @@
       <DependentUpon>frm_WMLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="KoliNoPopUp.resx">
+      <DependentUpon>KoliNoPopUp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -667,6 +677,11 @@
     <Compile Include="Utility.cs" />
     <Compile Include="VMLogger.cs" />
     <Compile Include="Web References\WS_Islem\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Koli\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -820,6 +835,14 @@
     <None Include="Web References\WS_Islem\ZKtWmWsYuklemeTeslimatResponse.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
+    <None Include="Web References\WS_Koli\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Koli\ZKtWmKoliDetayResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Koli\z_kt_wm_koli_detay.wsdl" />
     <None Include="Web References\WS_Kontrol\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -984,6 +1007,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <WebReferenceUrl Include="http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/z_kt_wm_koli_detay/500/z_kt_wm_koli_detay/z_kt_wm_koli_detay%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Koli\</RelPath>
+      <UpdateFromURL>http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/z_kt_wm_koli_detay/500/z_kt_wm_koli_detay/z_kt_wm_koli_detay%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="Z:\Google Drive\_Calismalar\Koctas_Calismalar\Mobile Uygulamalar\Uygulamalar\KoctasWM_Project\KoctasWM_Project\_wsdl\ws_wm_islem_v107.wsdl">
       <UrlBehavior>Static</UrlBehavior>
       <RelPath>Web References\WS_Islem\</RelPath>
