@@ -36,6 +36,7 @@
             this.btn_MagSevYuklemeMalCikisi = new KoctasWM_Project.PictureButton();
             this.btn_MalCikisi = new KoctasWM_Project.PictureButton();
             this.lbl_LoginInfo = new System.Windows.Forms.Label();
+            this.checkListBttn = new KoctasWM_Project.PictureButton();
             this.SuspendLayout();
             // 
             // btn_MagSevPaletleme_Iptal
@@ -44,10 +45,10 @@
             this.btn_MagSevPaletleme_Iptal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MagSevPaletleme_Iptal.BackgroundImage")));
             this.btn_MagSevPaletleme_Iptal.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.btn_MagSevPaletleme_Iptal.ForeColor = System.Drawing.Color.White;
-            this.btn_MagSevPaletleme_Iptal.Location = new System.Drawing.Point(3, 151);
+            this.btn_MagSevPaletleme_Iptal.Location = new System.Drawing.Point(161, 151);
             this.btn_MagSevPaletleme_Iptal.Name = "btn_MagSevPaletleme_Iptal";
             this.btn_MagSevPaletleme_Iptal.PressedImage = ((System.Drawing.Image)(resources.GetObject("btn_MagSevPaletleme_Iptal.PressedImage")));
-            this.btn_MagSevPaletleme_Iptal.Size = new System.Drawing.Size(312, 47);
+            this.btn_MagSevPaletleme_Iptal.Size = new System.Drawing.Size(154, 47);
             this.btn_MagSevPaletleme_Iptal.TabIndex = 30;
             this.btn_MagSevPaletleme_Iptal.Text = "   PALETLEME";
             this.btn_MagSevPaletleme_Iptal.Visible = false;
@@ -133,6 +134,20 @@
             this.lbl_LoginInfo.Text = "Bağlı Kullanıcı: ";
             this.lbl_LoginInfo.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // checkListBttn
+            // 
+            this.checkListBttn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(117)))), ((int)(((byte)(30)))));
+            this.checkListBttn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("checkListBttn.BackgroundImage")));
+            this.checkListBttn.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Regular);
+            this.checkListBttn.ForeColor = System.Drawing.Color.White;
+            this.checkListBttn.Location = new System.Drawing.Point(3, 151);
+            this.checkListBttn.Name = "checkListBttn";
+            this.checkListBttn.PressedImage = ((System.Drawing.Image)(resources.GetObject("checkListBttn.PressedImage")));
+            this.checkListBttn.Size = new System.Drawing.Size(154, 47);
+            this.checkListBttn.TabIndex = 34;
+            this.checkListBttn.Text = " KONTROL LİSTESİ YAZ..";
+            this.checkListBttn.Click += new System.EventHandler(this.checkListBttn_Click);
+            // 
             // frm_Menu_Mal_Cikis_Sevkiyat_Islemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -140,6 +155,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(318, 295);
             this.ControlBox = false;
+            this.Controls.Add(this.checkListBttn);
             this.Controls.Add(this.lbl_LoginInfo);
             this.Controls.Add(this.btn_MalCikisi);
             this.Controls.Add(this.btn_MagSevYuklemeMalCikisi);
@@ -163,5 +179,6 @@
         private PictureButton btn_MagSevYuklemeMalCikisi;
         private PictureButton btn_MalCikisi;
         private System.Windows.Forms.Label lbl_LoginInfo;
+        private PictureButton checkListBttn;
     }
 }
