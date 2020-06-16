@@ -143,7 +143,7 @@ namespace KoctasWM_Project
             Cursor.Current = Cursors.WaitCursor;
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsPaletTransfer chk = new KoctasWM_Project.WS_Islem.ZKtWmWsPaletTransfer();
                 WS_Islem.ZKtWmWsPaletTransferResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsPaletTransferResponse();
 

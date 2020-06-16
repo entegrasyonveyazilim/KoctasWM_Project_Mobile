@@ -633,3 +633,6 @@ C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\ob
 C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\bin\Debug\KoctasWM_Project.exe
 C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\bin\Debug\KoctasWM_Project.pdb
 C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\obj\Debug\KoctasWM_Project.pdb
+C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\obj\Debug\KoctasWM_Project.frm_42_Kargo_Alani_Paketleme.resources
+C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\obj\Debug\KoctasWM_Project.frm_43_Kargo_Alani_Transfer.resources
+C:\git\RF-WM\KoctasWM_Project_Mobile\KoctasWM_Project_Mobile\KoctasWM_Project\obj\Debug\KoctasWM_Project.frm_44_Kargo_CheckList.resources

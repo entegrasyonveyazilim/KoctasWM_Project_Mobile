@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Results>
-    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///Z:/Google Drive/_Calismalar/Koctas_Calismalar/Mobile Uygulamalar/Uygulamalar/KoctasWM_Project/KoctasWM_Project/_wsdl/ws_wm_islem_v107.wsdl" filename="ws_wm_islem_v107.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zkt_wm_ws_islem/500/ZKT_WM_WS_ISLEMSERVICE/zkt_wm_ws_islem?sap-client=500" filename="zkt_wm_ws_islem.wsdl" />
   </Results>
 </DiscoveryClientResultsFile>

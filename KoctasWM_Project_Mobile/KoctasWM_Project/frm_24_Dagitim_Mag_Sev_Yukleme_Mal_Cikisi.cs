@@ -273,7 +273,7 @@ namespace KoctasWM_Project
                 Cursor.Current = Cursors.WaitCursor;
                 try
                 {
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsYuklemeTeslimat chk = new KoctasWM_Project.WS_Islem.ZKtWmWsYuklemeTeslimat();
                     WS_Islem.ZKtWmWsYuklemeTeslimatResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsYuklemeTeslimatResponse();
 

@@ -369,5 +369,12 @@ namespace KoctasWM_Project
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frm_Menu_Mal_Cikis_Sevkiyat_Islemleri_Kargo frm = new frm_Menu_Mal_Cikis_Sevkiyat_Islemleri_Kargo();
+
+            frm.ShowDialog();
+        }
+
     }
 }

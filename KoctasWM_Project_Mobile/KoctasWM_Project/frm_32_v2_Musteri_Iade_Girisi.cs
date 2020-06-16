@@ -432,7 +432,7 @@ namespace KoctasWM_Project
                 int _siparisSayisi = webSipSayisi();
 
                 //Webservice işlemleri
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsWebiadeKabul2 chk = new KoctasWM_Project.WS_Islem.ZKtWmWsWebiadeKabul2();
                 WS_Islem.ZKtWmWsWebiadeKabul2Response resp = new KoctasWM_Project.WS_Islem.ZKtWmWsWebiadeKabul2Response();
 

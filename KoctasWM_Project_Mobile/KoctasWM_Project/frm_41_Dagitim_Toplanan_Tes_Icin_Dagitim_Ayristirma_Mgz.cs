@@ -147,7 +147,7 @@ namespace KoctasWM_Project
             Cursor.Current = Cursors.WaitCursor;
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsTeslimDagitimCre chk = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimDagitimCre();
                 WS_Islem.ZKtWmWsTeslimDagitimCreResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimDagitimCreResponse();
                 WS_Islem.ZktWmStRampaYukleme[] ret = new KoctasWM_Project.WS_Islem.ZktWmStRampaYukleme[_yukle.Rows.Count];

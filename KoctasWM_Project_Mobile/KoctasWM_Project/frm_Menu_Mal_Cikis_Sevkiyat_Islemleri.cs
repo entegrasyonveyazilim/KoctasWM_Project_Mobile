@@ -35,11 +35,13 @@ namespace KoctasWM_Project
             frm.ShowDialog();
         }
 
+        /*
         private void btn_MusSevKoli_KargoTes_Iptal_Click(object sender, EventArgs e)
         {
             frm_22_Dagitim_Mus_Sev_Kolilerin_Kargoya_Verilmesi frm = new frm_22_Dagitim_Mus_Sev_Kolilerin_Kargoya_Verilmesi();
             frm.ShowDialog();
         }
+        */
 
         private void btn_MagSevPaletleme_Iptal_Click(object sender, EventArgs e)
         {
@@ -59,11 +61,23 @@ namespace KoctasWM_Project
             frm.ShowDialog();
         }
 
-        private void checkListBttn_Click(object sender, EventArgs e)
+        private void btn_KargoSurecleri_Click(object sender, EventArgs e)
         {
-            KoliNoPopUp frm = new KoliNoPopUp();
+            frm_Menu_Mal_Cikis_Sevkiyat_Islemleri_Kargo frm = new frm_Menu_Mal_Cikis_Sevkiyat_Islemleri_Kargo();
             frm.ShowDialog();
         }
+
+        private void checkListBttn_Click(object sender, EventArgs e)
+        {
+            KoliNoPopUp form= new KoliNoPopUp();
+            form.ShowDialog();
+        }
+        /*
+        private void checkListBttn_Click(object sender, EventArgs e)
+        {
+            KoliPopUp frm = new KoliPopUp();
+            frm.ShowDialog();
+        }*/
 
     }
 }

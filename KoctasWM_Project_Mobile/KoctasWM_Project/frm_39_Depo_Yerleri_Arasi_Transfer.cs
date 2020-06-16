@@ -177,7 +177,7 @@ namespace KoctasWM_Project
             Cursor.Current = Cursors.WaitCursor;
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsDepoArasiTransfer chk = new KoctasWM_Project.WS_Islem.ZKtWmWsDepoArasiTransfer();
                 WS_Islem.ZKtWmWsDepoArasiTransferResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsDepoArasiTransferResponse();
 

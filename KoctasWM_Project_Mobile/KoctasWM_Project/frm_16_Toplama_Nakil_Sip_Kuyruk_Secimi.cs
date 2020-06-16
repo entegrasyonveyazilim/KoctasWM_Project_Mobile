@@ -170,7 +170,7 @@ namespace KoctasWM_Project
 
                         kuyrukNo = drKuyruk.Rows[grd_List.CurrentCell.RowNumber]["kuyrukNo"].ToString().Trim();
 
-                        WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                        WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                         WS_Islem.ZKtWmWsKuyrukDegistir chk = new KoctasWM_Project.WS_Islem.ZKtWmWsKuyrukDegistir();
                         WS_Islem.ZKtWmWsKuyrukDegistirResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsKuyrukDegistirResponse();
 

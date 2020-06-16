@@ -51,7 +51,7 @@ namespace KoctasWM_Project
             switch (servicename) {
                 case "zkt_wm_ws_yardim" : { servicenameService = "zkt_wm_ws_yardimservice"; break; }
                 case "zkt_wm_ws_kontrol": { servicenameService = "zkt_wm_ws_kontrolservice"; break; }
-                case "zkt_wm_ws_islem": { servicenameService = "zkt_wm_ws_islemservice"; break; }
+                case "zkt_wm_ws_islem": { servicenameService = "ZKT_WM_WS_ISLEMSERVICE"; break; }
                 case "zkt_wm_ws_login": { servicenameService = "zkt_wm_ws_login"; break; }
                 case "z_kt_wm_koli_detay": { servicenameService = "z_kt_wm_koli_detay"; break; }
                 default: break;
@@ -107,7 +107,7 @@ namespace KoctasWM_Project
 
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWmMalzemeInfo chk = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfo();
                 WS_Islem.ZKtWmWmMalzemeInfoResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfoResponse();
 
@@ -289,7 +289,7 @@ namespace KoctasWM_Project
 
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsAtfGenel chk = new KoctasWM_Project.WS_Islem.ZKtWmWsAtfGenel();
                 WS_Islem.ZKtWmWsAtfGenelResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsAtfGenelResponse();
 
@@ -371,7 +371,7 @@ namespace KoctasWM_Project
             bool basarili = false;
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsAtfKaydet chk = new KoctasWM_Project.WS_Islem.ZKtWmWsAtfKaydet();
                 WS_Islem.ZKtWmWsAtfKaydetResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsAtfKaydetResponse();
 

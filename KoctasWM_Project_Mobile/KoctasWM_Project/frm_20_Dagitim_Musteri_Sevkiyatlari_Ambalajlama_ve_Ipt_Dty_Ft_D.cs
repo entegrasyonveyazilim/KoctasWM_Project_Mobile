@@ -57,7 +57,7 @@ namespace KoctasWM_Project
                 {
                     //ZKT_WM_WS_AMBALAJLAMA_ESLEME
                     Cursor.Current = Cursors.WaitCursor;
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsAmbalajlamaEsleme chk = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlamaEsleme();
                     WS_Islem.ZKtWmWsAmbalajlamaEslemeResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlamaEslemeResponse();
 

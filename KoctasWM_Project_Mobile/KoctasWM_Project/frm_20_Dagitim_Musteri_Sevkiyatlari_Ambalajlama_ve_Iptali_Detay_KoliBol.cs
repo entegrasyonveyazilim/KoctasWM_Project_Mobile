@@ -249,7 +249,7 @@ namespace KoctasWM_Project
                 {
 
                     drKoli.Clear();
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsKoliBol chk = new KoctasWM_Project.WS_Islem.ZKtWmWsKoliBol();
                     WS_Islem.ZKtWmWsKoliBolResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsKoliBolResponse();
 
@@ -395,7 +395,7 @@ namespace KoctasWM_Project
                     try
                     {
 
-                        WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                        WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                         WS_Islem.ZKtWmWsNewKoliUpdate chk = new KoctasWM_Project.WS_Islem.ZKtWmWsNewKoliUpdate();
                         WS_Islem.ZKtWmWsNewKoliUpdateResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsNewKoliUpdateResponse();
                         WS_Islem.ZktWmStKoliUpdate[] itKoli = new KoctasWM_Project.WS_Islem.ZktWmStKoliUpdate[drKoli.Rows.Count];

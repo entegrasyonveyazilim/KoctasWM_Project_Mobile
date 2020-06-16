@@ -453,7 +453,7 @@ namespace KoctasWM_Project
 
                     if (koliDesiKontrol)
                     {
-                        WS_Islem.ZKT_WM_WS_ISLEMService srv1 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                        WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv1 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                         WS_Islem.ZKtWmWmMalzemeInfo chk1 = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfo();
                         WS_Islem.ZKtWmWmMalzemeInfoResponse resp1 = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfoResponse();
 
@@ -702,7 +702,7 @@ namespace KoctasWM_Project
                 Cursor.Current = Cursors.WaitCursor;
                 try
                 {
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsAmbalajlama chk = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlama();
                     WS_Islem.ZKtWmWsAmbalajlamaResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlamaResponse();
                     WS_Islem.ZktWmStKoli[] koli = new KoctasWM_Project.WS_Islem.ZktWmStKoli[_topla.Rows.Count];

@@ -241,7 +241,7 @@ namespace KoctasWM_Project
                 Cursor.Current = Cursors.WaitCursor;
                 try
                 {
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWmMalzemeInfo chk = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfo();
                     WS_Islem.ZKtWmWmMalzemeInfoResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWmMalzemeInfoResponse();
 
@@ -298,7 +298,7 @@ namespace KoctasWM_Project
             try
             {
 
-                WS_Islem.ZKT_WM_WS_ISLEMService srv2 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv2 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsSayimKaydet chk2 = new KoctasWM_Project.WS_Islem.ZKtWmWsSayimKaydet();
                 WS_Islem.ZKtWmWsSayimKaydetResponse resp2 = new KoctasWM_Project.WS_Islem.ZKtWmWsSayimKaydetResponse();
                 WS_Islem.ZktWmSayimCnl[] sayim;

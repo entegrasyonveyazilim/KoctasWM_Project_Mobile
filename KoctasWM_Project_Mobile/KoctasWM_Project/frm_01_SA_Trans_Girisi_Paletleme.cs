@@ -151,7 +151,7 @@ namespace KoctasWM_Project
             {
                 //Palet no geçerli ise yazma işlemi yapılıyor
 
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsSatinalmaGiris chk = new KoctasWM_Project.WS_Islem.ZKtWmWsSatinalmaGiris();
                 WS_Islem.ZKtWmWsSatinalmaGirisResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsSatinalmaGirisResponse();
 

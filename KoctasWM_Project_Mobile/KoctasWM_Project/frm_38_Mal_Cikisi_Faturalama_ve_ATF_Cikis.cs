@@ -49,7 +49,7 @@ namespace KoctasWM_Project
                     {
                         //Z_KT_WM_WS_TESLIMAT_TOP_GER_AL fonk. çalıştırılıyor
                         Cursor.Current = Cursors.WaitCursor;
-                        WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                        WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                         WS_Islem.ZKtWmWsTeslimatTopGerAl chk = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimatTopGerAl();
                         WS_Islem.ZKtWmWsTeslimatTopGerAlResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimatTopGerAlResponse();
 
@@ -104,7 +104,7 @@ namespace KoctasWM_Project
                         {
                             //Z_KT_WM_WS_AMBALAJLAMA_FATURA fonk. çalışacak
                             Cursor.Current = Cursors.WaitCursor;
-                            WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                            WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                             WS_Islem.ZKtWmWsAmbalajlamaFatura chk = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlamaFatura();
                             WS_Islem.ZKtWmWsAmbalajlamaFaturaResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsAmbalajlamaFaturaResponse();
 

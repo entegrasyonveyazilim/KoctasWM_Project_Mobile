@@ -328,7 +328,7 @@ namespace KoctasWM_Project
 
                 if (islemTuru == "iadeCikisi")
                 {
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsSatIadeCikisi chk = new KoctasWM_Project.WS_Islem.ZKtWmWsSatIadeCikisi();
                     WS_Islem.ZKtWmWsSatIadeCikisiResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsSatIadeCikisiResponse();
                     
@@ -386,7 +386,7 @@ namespace KoctasWM_Project
                 }
                 else if (islemTuru == "hurdaCikisi")
                 {
-                    WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                    WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                     WS_Islem.ZKtWmWsHurdaCikisi chk = new KoctasWM_Project.WS_Islem.ZKtWmWsHurdaCikisi();
                     WS_Islem.ZKtWmWsHurdaCikisiResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsHurdaCikisiResponse();
 

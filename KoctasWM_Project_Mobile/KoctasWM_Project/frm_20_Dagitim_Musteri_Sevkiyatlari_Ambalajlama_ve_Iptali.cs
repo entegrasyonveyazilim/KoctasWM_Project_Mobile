@@ -331,7 +331,7 @@ namespace KoctasWM_Project
                     {
                         if (MessageBox.Show(resp.EsResponse[0].Message.ToString(), "HATA", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                         {
-                            WS_Islem.ZKT_WM_WS_ISLEMService srv1 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                            WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv1 = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                             WS_Islem.ZKtWmWsTeslimatTopGerAl chk1 = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimatTopGerAl();
                             WS_Islem.ZKtWmWsTeslimatTopGerAlResponse resp1 = new KoctasWM_Project.WS_Islem.ZKtWmWsTeslimatTopGerAlResponse();
 

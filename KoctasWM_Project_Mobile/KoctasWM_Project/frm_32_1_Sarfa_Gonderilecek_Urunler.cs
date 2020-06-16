@@ -90,7 +90,7 @@ namespace KoctasWM_Project
             Cursor.Current = Cursors.WaitCursor;
             try
             {
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZKtWmWsIadeHurdaCikisi chk = new KoctasWM_Project.WS_Islem.ZKtWmWsIadeHurdaCikisi();
                 WS_Islem.ZKtWmWsIadeHurdaCikisiResponse resp = new KoctasWM_Project.WS_Islem.ZKtWmWsIadeHurdaCikisiResponse();
                 WS_Islem.ZktWmStSarf[] yeniSarf = new KoctasWM_Project.WS_Islem.ZktWmStSarf[secilenSatirSayisi];

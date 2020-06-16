@@ -422,7 +422,7 @@ namespace KoctasWM_Project
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                WS_Islem.ZKT_WM_WS_ISLEMService srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMService();
+                WS_Islem.ZKT_WM_WS_ISLEMSERVICE srv = new KoctasWM_Project.WS_Islem.ZKT_WM_WS_ISLEMSERVICE();
                 WS_Islem.ZkmobilMgH mgh = new KoctasWM_Project.WS_Islem.ZkmobilMgH();
                 WS_Islem.ZkmobilMgI[] mgi = new KoctasWM_Project.WS_Islem.ZkmobilMgI[dt_mal.Rows.Count];
                 WS_Islem.ZkmobilReturn[] ret = new KoctasWM_Project.WS_Islem.ZkmobilReturn[0];
